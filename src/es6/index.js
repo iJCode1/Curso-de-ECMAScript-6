@@ -33,3 +33,26 @@ console.log(phrase);
 let phrase2 = `${hello} ${world}`
 console.log(phrase2);
 // Salida: Hello World
+
+// -----------------------------------------------------------------------------------------------
+
+// Saltos de linea en Textos
+
+    // Forma habitual antes de es6...
+let lorem = "Este es un texto y esta es la primer linea del mismo, \nAhora esto es una segunda linea del Texto";
+console.log(lorem); 
+/* Salida:
+    Este es un texto y esta es la primer linea del mismo, 
+    Ahora esto es una segunda linea del Texto
+*/ 
+
+
+    // Forma de hacer estos saltos de linea en es6
+let lorem2 = `Este es un texto usando el Acento grave,
+Simplemente con dar enter hacemos un salto de linea.`;
+
+console.log(lorem2);
+    /* Salida:
+    Este es un texto usando el Acento grave
+    Simplemente con dar enter hacemos un salto de linea.
+    */
