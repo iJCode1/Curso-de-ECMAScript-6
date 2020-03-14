@@ -120,3 +120,23 @@ console.log(globalVar);
         Esta impresión es incorrecta debido a que la variable es let
         solo es accesible por el mismo bloque de codigo.
     */
+
+// -----------------------------------------------------------------------------------------------
+
+    // Constantes
+
+var a = 'b';  //Permite asignale un nuevo valor.
+let aa = 'bb';  //Permite asignale un nuevo valor.
+
+a = 'a1';
+aa = 'a2';
+
+console.log(a); // Salida: a1
+console.log(aa); // Salida: a2
+
+const pi = 3.1416;
+console.log(pi); // Salida: 3.1416
+
+    /*
+    pi = 3; <--- Esto es incorrecto debido a que no se permite asignarle un vnuevo alor por que es una constante.
+    */
