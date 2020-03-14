@@ -56,3 +56,21 @@ console.log(lorem2);
     Este es un texto usando el Acento grave
     Simplemente con dar enter hacemos un salto de linea.
     */
+
+// -----------------------------------------------------------------------------------------------
+
+// Destructuración...
+
+let person = {
+name: "Joel",
+age: '20',
+country:'MX'
+}
+
+console.log(person.name, person.country); // Obtenemos los valores del objeto indicado.
+// Salida: Joel MX
+
+// Con es6 utilizando la Destructuración
+let {name,age,country} = person; // Obtenemos los valores que tenemos en el objeto (Variable) indicado.
+console.log(name, age); // Usamos los valores que queramos.
+console.log(country); // Utilizando unicamente el valor de country.
