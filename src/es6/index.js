@@ -92,3 +92,31 @@ console.log("Geremias" ,...team1, ...team2);
     Salida:
     Geremias Joel Isadora Julieta Alazkin Carla Sonia Gustavo Aldair
 */
+
+// -----------------------------------------------------------------------------------------------
+
+    // Diferencia entre Var y Let.
+
+    /*
+        Var es una variable global,
+        lo que quiere decir que puede ser accedida desde cualquier parte de nuestro codigo
+
+        Let es una variable mas restringida
+        unicamente se puede utilizar dentro de un bloque donde fue declarada.
+    */
+
+{
+    var globalVar = "Alazkin";
+}
+
+{
+    let globalLet = "La mejor raza"
+    console.log(globalLet)
+}
+
+console.log(globalVar);
+    /*
+        console.log(globalLet); 
+        Esta impresión es incorrecta debido a que la variable es let
+        solo es accesible por el mismo bloque de codigo.
+    */
