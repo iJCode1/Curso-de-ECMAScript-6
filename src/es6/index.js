@@ -74,3 +74,21 @@ console.log(person.name, person.country); // Obtenemos los valores del objeto in
 let {name,age,country} = person; // Obtenemos los valores que tenemos en el objeto (Variable) indicado.
 console.log(name, age); // Usamos los valores que queramos.
 console.log(country); // Utilizando unicamente el valor de country.
+
+// -----------------------------------------------------------------------------------------------
+
+    // Operador de Propagación.
+
+/*
+    Este operador se implementa con los ... (tres puntos),
+    nos ayudara a unir en una impresion los valores que ya teniamos en por ejemplo un arreglo.
+*/
+
+let team1 = ["Joel","Isadora", "Julieta", "Alazkin"];
+let team2 = ["Carla","Sonia","Gustavo", "Aldair"];
+
+console.log("Geremias" ,...team1, ...team2);
+/*
+    Salida:
+    Geremias Joel Isadora Julieta Alazkin Carla Sonia Gustavo Aldair
+*/
